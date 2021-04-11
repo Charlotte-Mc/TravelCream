@@ -1,0 +1,365 @@
+.hero {
+  background-image: url("../images/hero.png");
+  background-size: cover;
+  margin-bottom: 1px;
+  position: relative;
+  height: 710px;
+  width: 100%;
+  margin-top: -100px;
+}
+
+.hero__text {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 510px;
+  text-align: center;
+  padding: 90px 0;
+  ;
+}
+
+.nav {
+  color: #ffffff;
+  position: relative;
+  z-index: 2;
+  margin-top: 35px;
+}
+
+.nav_button {
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav_login {
+  color: #ffffff;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 5px 37.5px;
+  float: right;
+}
+
+.nav_button:hover {
+  color: #fff;
+}
+
+input {
+  width: 25%;
+  padding: 13.5px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+input[type="date"] {
+  padding: 12.5px 25px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.panel {
+  border: 1px solid #e6e6e6;
+  margin: 20px;
+  display: inline-block;
+}
+
+.panel_buynow {
+  border-radius: 5px;
+  border: 1px solid #ff4b64;
+  display: inline-block;
+  padding: 6px 37.5px;
+  color: #ff4b64;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  margin-left: 15px;
+}
+
+.panel_buynow:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #ff4b64;
+}
+
+.panel_title {
+  color: #484848;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.panel_distance {
+  float: left;
+  color: #9a9a9a;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px;
+}
+
+.panel_amenities {
+  float: right;
+  color: #9a9a9a;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.search_form {
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 20px;
+}
+
+.search__button {
+  background-color: #ff4b64;
+  color: #ffffff;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 400;
+  padding: 18.5px 35px;
+}
+
+.search__button:hover {
+  text-decoration: none;
+  color: #484848;
+}
+
+.hotel {
+  color: #484848;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 26px;
+  display: inline-block;
+  margin-right: 365px;
+  margin-left: 20px;
+}
+
+.bestprice {
+  color: #484848;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 31px;
+}
+
+.bestprice_button {
+  color: #484848;
+  text-decoration: none;
+  padding: 31px;
+  margin-left: 450px;
+}
+
+.bestprice_button:hover {
+  color: #ff4b64;
+  text-decoration: none;
+  padding: 31px;
+}
+
+.distance {
+  color: #484848;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 31px;
+}
+
+.distance_button {
+  color: #484848;
+  text-decoration: none;
+  padding: 31px;
+  margin-right: 20px;
+}
+
+.distance_button:hover {
+  color: #ff4b64;
+  text-decoration: none;
+  padding: 31px;
+}
+
+.seeallhotels {
+  color: #ff4b64;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 31px;
+}
+
+.seeallhotels_button {
+  color: #484848;
+  text-decoration: none;
+  padding: 31px;
+  margin-left: 450px;
+}
+
+.seeallhotels_button:hover {
+  color: #ff4b64;
+  text-decoration: none;
+}
+
+.attractiongrid {
+  display: grid;
+  grid-template-columns: [1] 350px [2] 350px [3] 350px;
+  grid-template-rows: [1] 247px [2] 247px [3] 247px;
+  column-gap: 30px;
+  row-gap: 31px;
+  grid-template-areas:
+    "eiffel""louvres""louvres"
+    "eiffel""notre""notre"
+    "forum""arc""sacre";
+}
+
+.attractiongrid_eiffel {
+  background-image: url("../images/eiffel.png");
+  grid-area: eiffel;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  height: 525px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attractiongrid_eiffel:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  color: #ff4b64;
+}
+
+.attractiongrid_louvres {
+  background-image: url("../images/louvres.png");
+  grid-area: louvres;
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 2;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  height: 247px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attractiongrid_louvres:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  color: #ff4b64;
+}
+
+.attractiongrid_notre {
+  background-image: url("../images/notre.png");
+  grid-area: notre;
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 1;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  height: 247px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attractiongrid_notre:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  color: #ff4b64;
+}
+
+.attractiongrid_forum {
+  grid-area: forum;
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 3;
+  grid-row-end: span 1;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  height: 260px;
+  background-image: url("../images/forum.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attractiongrid_forum:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  color: #ff4b64;
+}
+
+.attractiongrid_arc {
+  background-image: url("../images/arc.png");
+  grid-area: arc;
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  grid-row-start: 3;
+  grid-row-end: span 1;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attractiongrid_arc:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  color: #ff4b64;
+}
+
+.attractiongrid_sacre {
+  background-image: url("../images/sacre.png");
+  grid-area: sacre;
+  grid-column-start: 3;
+  grid-column-end: span 1;
+  grid-row-start: 3;
+  grid-row-end: span 1;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attractiongrid_sacre:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  color: #ff4b64;
+}
